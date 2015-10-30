@@ -1,2 +1,4 @@
-Babel Preset for latest Node
-============================
+Babel Preset Node
+=================
+
+Babel plugins preset for the latest node

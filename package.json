@@ -3,8 +3,16 @@
   "version": "0.0.1",
   "description": "Babel plugins preset for the latest node",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkt/babel-preset-node.git"
+  },
   "author": "Nikita Gusakov",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nkt/babel-preset-node/issues"
+  },
+  "homepage": "https://github.com/nkt/babel-preset-node#readme",
   "dependencies": {
     "babel-plugin-transform-es2015-template-literals": "^6.0.2",
     "babel-plugin-transform-es2015-literals": "^6.0.2",
