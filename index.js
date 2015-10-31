@@ -19,12 +19,9 @@ module.exports = {
     require('babel-plugin-transform-es2015-block-scoping'),
     require('babel-plugin-transform-es2015-modules-commonjs'),
     // ES7
-    require('babel-plugin-transform-async-to-module-method')
-  ],
-  extra: {
-    'transform-async-to-module-method': {
+    [require('babel-plugin-transform-async-to-module-method'), {
       module: 'bluebird',
       method: 'coroutine'
-    }
-  }
+    }]
+  ]
 };
