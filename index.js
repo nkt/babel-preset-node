@@ -19,6 +19,8 @@ module.exports = {
     [require('babel-plugin-transform-async-to-module-method'), {
       module: 'bluebird',
       method: 'coroutine'
-    }]
+    }],
+    // other
+    require('babel-plugin-transform-strict-mode')
   ]
 };
